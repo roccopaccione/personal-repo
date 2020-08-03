@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    background-color: midnightblue;
+}
+h1 {
+    text-align: center;
+    color: #F6F6F6;
+}
+.container {
+    display: table;
+    float: left;
+    clear: both;
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    background-color: #F6F6F6;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    display: table-cell;
+    background-color: #F6F6F6;
+}
+a {
+    text-decoration: none;
+    color: goldenrod;
+}
+a :hover {
+    color: snow;
+}
