@@ -46,12 +46,21 @@
      * and console.log the relevant messages for each person
      */
 
-    // var shoppers = [
-    //     {name: 'Cameron', amount: 180},
-    //     {name: 'Ryan', amount: 250},
-    //     {name: 'George', amount: 320}
-    // ];
-
+    var shoppers = [
+        {name: 'Cameron', amount: 180},
+        {name: 'Ryan', amount: 250},
+        {name: 'George', amount: 320}
+    ];
+    var discount = function(){
+        if (this.shoppers.amount > 200){
+            return (parseInt(this.shoppers.amount) * 0.88);
+        }else if(this.shoppers.amount < 200) {
+            return (parseInt(this.shoppers.amount));
+        }
+    }
+    shoppers.forEach(function(discount) {
+        console.log(shoppers[0] + " total amount was " + discount + "without discount.");
+    })
     /** TODO:
      * Create an array of objects that represent books and store it in a
      * variable named `books`. Each object should have a title and an author
