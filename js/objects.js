@@ -1,3 +1,4 @@
+
 (function() {
     "use strict";
 
@@ -52,12 +53,13 @@
         {name: 'George', amount: 320}
     ];
     var discount = function(){
-        if (this.shoppers.amount > 200){
-            return (parseInt(this.shoppers.amount) * 0.88);
-        }else if(this.shoppers.amount < 200) {
-            return (parseInt(this.shoppers.amount));
+        if (shoppers.amount > 200){
+            return (parseInt(this.amount) * 0.88);
+        }else if(this.amount < 200) {
+            return (parseInt(this.amount));
         }
     }
+    console.log(discount(shoppers));
     shoppers.forEach(function(discount) {
         console.log(shoppers[0] + " total amount was " + discount + "without discount.");
     })
