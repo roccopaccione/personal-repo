@@ -22,11 +22,24 @@ function fizzBuzz(){
             console.log(i + ' FizzBuzz')
         }else if(i%3 === 0){
             console.log(i + ' Fizz')
-//         }else if(i%5 === 0){
-//             console.log(i + ' Buzz')
-//         }else{
-//             console.log(i)
-//         }
-//     }
-// }
-// fizzBuzz()
+        }else if(i%5 === 0){
+            console.log(i + ' Buzz')
+        }else{
+            console.log(i)
+        }
+    }
+}
+fizzBuzz()
+
+function buzzFizz(){
+    for(var i =0; i<=25; i+2){
+        if (i % 5 === 0 ){
+            console.log('Zoom')
+        }else if(i % 3 === 0){
+            console.log('Zoom Zoom')
+        }else{
+            console.log(i)
+        }
+    }
+}
+buzzFizz()
