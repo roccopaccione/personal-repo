@@ -7,3 +7,12 @@ function increment(input){
 }
 
 console.log(increment(0));
+
+function getHighestNumber(x,y,z) {
+    if((x !== isNaN) || (y !== isNaN) || (z !== isNaN)) {
+        return false;
+    }else{
+        console.log(Math.max(x,y,z))
+    }
+}
+getHighestNumber(1, 3, 2)
