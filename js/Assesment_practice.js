@@ -16,3 +16,12 @@ function getHighestNumber(x,y,z) {
     }
 }
 getHighestNumber(1, 3, 2)
+
+function add(x,y){
+    if((x === isNaN) || (y === isNaN)){
+        return false;
+    }else{
+        console.log(x + y);
+    }
+}
+add(1,2);
