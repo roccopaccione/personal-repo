@@ -25,3 +25,12 @@ function add(x,y){
     }
 }
 add(1,2);
+
+function multiply(x,y){
+    if ((x === isNaN) || (y === isNaN)){
+        return false;
+    }else{
+        console.log(x * y)
+    }
+}
+multiply(0,44);
