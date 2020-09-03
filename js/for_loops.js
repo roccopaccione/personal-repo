@@ -7,4 +7,11 @@ function showMultiplicationTable(num) {
 showMultiplicationTable(7)
 
 var randomNumber = Math.floor(Math.random() * 200) + 20
-function random()
+function random(randomNumber){
+    if (randomNumber % 2 === 0){
+        console.log(randomNumber + " is Even!")
+    }else{
+        console.log(randomNumber + " is Odd!")
+    }
+}
+random(randomNumber);
