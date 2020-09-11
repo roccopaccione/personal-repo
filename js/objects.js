@@ -111,5 +111,8 @@
      *   outputs the information described above. Refactor your loop to use your
      *   `showBookInfo` function.
      */
-
+    console.log(discount(shoppers));
+    shoppers.forEach(function(discount) {
+        console.log(shoppers[0] + " total amount was " + discount + "without discount.");
+    })
 })();
